@@ -19,6 +19,6 @@
 
 # Learn more: http://github.com/javan/whenever
 
-every '* */12 * 1,2,3,4,5 *' do
+every '* 10,19 * * 1,2,3,4,5' do
 	rake 'cronjobs:start_stop_staging_servers'
 end
