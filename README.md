@@ -33,7 +33,7 @@ bundle install
 ```ruby
 Aws.config.update({
 	region: "YOUR_AWS_REGION",
-  credentials: Aws::Credentials.new("YOUR_AWS_ACCESS_KEY", "YOUR_AWS_SECRET_ACCESS_KEY") 
+ 	credentials: Aws::Credentials.new("YOUR_AWS_ACCESS_KEY", "YOUR_AWS_SECRET_ACCESS_KEY") 
 })
 ```
 
