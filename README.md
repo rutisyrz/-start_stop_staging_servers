@@ -2,7 +2,7 @@
 Script to auto Start/Stop AWS EC2 instances used for Staging environment during non-productive hours
 
 ## Required gems 
-- aws-sdk, slack-notifier, whenever
+- [aws-sdk](https://rubygems.org/gems/aws-sdk), [slack-notifier](https://rubygems.org/gems/slack-notifier), [whenever](https://rubygems.org/gems/whenever)
 
 ## Setup code
 
