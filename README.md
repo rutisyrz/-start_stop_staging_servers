@@ -17,13 +17,6 @@ You can schedule this script on your Production server.
 
 ## Setup code
 
-- Add required gems in Gemfile
-```ruby
-gem ‘aws-sdk’, '~> 2'
-gem ‘slack-notifier’
-gem 'whenever'
-```
-
 - Install bundle
 ```ruby
 bundle install
